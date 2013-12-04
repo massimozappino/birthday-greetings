@@ -5,9 +5,11 @@
     <ignored path="birthday-greetings.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/src/main/assembly/dist.xml" changelist="1b9f751b-58fe-44e4-bd0d-75752307d51d" time="1386153910354" ignored="false" />
-    <file path="/BirthdayService.java" changelist="1b9f751b-58fe-44e4-bd0d-75752307d51d" time="1386155537268" ignored="false" />
-    <file path="/TODO" changelist="1b9f751b-58fe-44e4-bd0d-75752307d51d" time="1386155574822" ignored="false" />
-    <file path="/EmployeeRepository.java" changelist="1b9f751b-58fe-44e4-bd0d-75752307d51d" time="1386155502186" ignored="false" />
+    <file path="/BirthdayService.java" changelist="1b9f751b-58fe-44e4-bd0d-75752307d51d" time="1386156749473" ignored="false" />
+    <file path="/TODO" changelist="1b9f751b-58fe-44e4-bd0d-75752307d51d" time="1386155812171" ignored="false" />
+    <file path="/EmployeeRepository.java" changelist="1b9f751b-58fe-44e4-bd0d-75752307d51d" time="1386156776807" ignored="false" />
+    <file path="/fragment.java" changelist="1b9f751b-58fe-44e4-bd0d-75752307d51d" time="1386155844497" ignored="false" />
+    <file path="/IEmployeeRepository.java" changelist="1b9f751b-58fe-44e4-bd0d-75752307d51d" time="1386155863138" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +73,10 @@
       <file leaf-file-name="AcceptanceTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/xpug/kata/birthday_greetings/AcceptanceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="36" column="5" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1301#1331#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,7 +84,7 @@
       <file leaf-file-name="AcceptancePerWindowsTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/xpug/kata/birthday_greetings/AcceptancePerWindowsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="46" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0">
+            <state line="23" column="2" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,7 +93,7 @@
       <file leaf-file-name="BirthdayService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/BirthdayService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="1" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -98,19 +102,39 @@
       <file leaf-file-name="EmployeeRepository.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/EmployeeRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
+            <state line="7" column="56" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#453#463#0" expanded="true" />
+                <element signature="e#597#607#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TODO" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="IEmployeeRepository.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/IEmployeeRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="17" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TODO" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TODO">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="75" selection-start="2" selection-end="75" vertical-scroll-proportion="0.0">
+            <state line="1" column="49" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="19" selection-start="162" selection-end="162" vertical-scroll-proportion="0.1744186">
               <folding />
             </state>
           </provider>
@@ -126,9 +150,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/EmployeeRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/BirthdayService.java" />
         <option value="$PROJECT_DIR$/TODO" />
+        <option value="$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/IEmployeeRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/xpug/kata/birthday_greetings/AcceptancePerWindowsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/xpug/kata/birthday_greetings/AcceptanceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/BirthdayService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/EmployeeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/Main.java" />
       </list>
     </option>
   </component>
@@ -197,6 +225,36 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="birthday-greetings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="refactoring-kata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="birthday_greetings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -242,6 +300,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="birthday-greetings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="refactoring-kata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -258,6 +330,11 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="xpug.kata.birthday_greetings" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.All in birthday-greetings">
     <configuration default="false" name="All in birthday-greetings" type="JUnit" factoryName="JUnit" temporary="true">
@@ -399,21 +476,21 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2710796" sideWeight="0.65604025" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34395972" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34395972" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -490,13 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/xpug/kata/birthday_greetings/AcceptanceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/mail/mail/1.4/mail-1.4.jar!/javax/mail/Part.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="21" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.35588235">
@@ -504,33 +574,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TODO">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="49" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/xpug/kata/birthday_greetings/AcceptancePerWindowsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="46" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0">
+        <state line="23" column="2" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/xpug/kata/birthday_greetings/AcceptanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="5" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1301#1331#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/BirthdayService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="1" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
+        <state line="14" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/EmployeeRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
+        <state line="7" column="56" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#453#463#0" expanded="true" />
+            <element signature="e#597#607#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TODO">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/IEmployeeRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="75" selection-start="2" selection-end="75" vertical-scroll-proportion="0.0">
+        <state line="7" column="17" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="19" selection-start="162" selection-end="162" vertical-scroll-proportion="0.1744186">
           <folding />
         </state>
       </provider>

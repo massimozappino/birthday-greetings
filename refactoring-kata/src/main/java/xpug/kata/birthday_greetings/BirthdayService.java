@@ -1,10 +1,7 @@
 package xpug.kata.birthday_greetings;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
 import java.text.ParseException;
-import java.util.LinkedList;
 
 import javax.mail.Message;
 import javax.mail.MessagingException;
@@ -16,10 +13,15 @@ import javax.mail.internet.MimeMessage;
 
 public class BirthdayService {
 
-	public void sendGreetings(String fileName, XDate xDate, String smtpHost, int smtpPort) throws IOException, ParseException, AddressException, MessagingException {
+    private final IEmployeeRepository employeeRepository;
 
-;
-        for (Employee employee : new EmployeeRepository().getEmployees(fileName)) {
+    public BirthdayService(IEmployeeRepository employeeRepository) {
+        this.employeeRepository = employeeRepository;
+    }
+
+    public void sendGreetings(XDate xDate, String smtpHost, int smtpPort) throws IOException, ParseException, AddressException, MessagingException {
+
+        for (Employee employee : employeeRepository.getEmployees()) {
             if (employee.isBirthday(xDate)) {
                 String recipient = employee.getEmail();
                 String body = "Happy Birthday, dear %NAME%!".replace("%NAME%", employee.getFirstName());

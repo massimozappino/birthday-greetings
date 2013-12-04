@@ -1,1 +1,2 @@
-* Delegare la logica di recupero employees ad un oggetto EmployeeRepository
+* Passare a BirthdayService nel main l'oggetto Repository al posto del file txt
+**  utilizzando l'interfaccia IEmployeeRepository

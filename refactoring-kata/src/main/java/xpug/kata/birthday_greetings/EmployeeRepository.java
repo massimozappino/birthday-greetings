@@ -5,8 +5,16 @@ import java.text.ParseException;
 import java.util.LinkedList;
 
 
-public class EmployeeRepository {
-    public LinkedList<Employee> getEmployees(String fileName) throws IOException, ParseException {
+public class EmployeeRepository implements IEmployeeRepository {
+
+
+    private final String fileName;
+
+    public EmployeeRepository(String fileName) {
+        this.fileName = fileName;
+    }
+
+    public LinkedList<Employee> getEmployees() throws IOException, ParseException {
         BufferedReader in = new BufferedReader(new FileReader(fileName));
         String str = "";
         str = in.readLine(); // skip header
