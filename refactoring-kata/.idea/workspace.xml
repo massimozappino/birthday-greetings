@@ -5,7 +5,7 @@
     <ignored path="birthday-greetings.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/src/main/assembly/dist.xml" changelist="1b9f751b-58fe-44e4-bd0d-75752307d51d" time="1386153910354" ignored="false" />
-    <file path="/BirthdayService.java" changelist="1b9f751b-58fe-44e4-bd0d-75752307d51d" time="1386157810717" ignored="false" />
+    <file path="/BirthdayService.java" changelist="1b9f751b-58fe-44e4-bd0d-75752307d51d" time="1386158240935" ignored="false" />
     <file path="/TODO" changelist="1b9f751b-58fe-44e4-bd0d-75752307d51d" time="1386156974065" ignored="false" />
     <file path="/EmployeeRepository.java" changelist="1b9f751b-58fe-44e4-bd0d-75752307d51d" time="1386158075654" ignored="false" />
     <file path="/fragment.java" changelist="1b9f751b-58fe-44e4-bd0d-75752307d51d" time="1386157820600" ignored="false" />
@@ -93,10 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BirthdayService.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BirthdayService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/BirthdayService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="33" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
+            <state line="21" column="21" selection-start="685" selection-end="685" vertical-scroll-proportion="0.591133">
               <folding />
             </state>
           </provider>
@@ -122,13 +122,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeRepository.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EmployeeRepository.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/EmployeeRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="47" selection-start="600" selection-end="600" vertical-scroll-proportion="0.6133005">
+            <state line="25" column="44" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#418#428#0" expanded="true" />
+                <element signature="e#412#422#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,7 +137,7 @@
       <file leaf-file-name="IEmployeeRepository.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/IEmployeeRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+            <state line="5" column="32" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -175,11 +175,11 @@
         <option value="$PROJECT_DIR$/TODO" />
         <option value="$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/xpug/kata/birthday_greetings/AcceptanceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/BirthdayService.java" />
         <option value="$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/MailServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/IMessageServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/IEmployeeRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/EmployeeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/BirthdayService.java" />
       </list>
     </option>
   </component>
@@ -620,20 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/BirthdayService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="33" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="55" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/MailServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="0" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0">
@@ -650,20 +636,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="55" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/IEmployeeRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+        <state line="5" column="32" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/EmployeeRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="47" selection-start="600" selection-end="600" vertical-scroll-proportion="0.6133005">
+        <state line="25" column="44" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#418#428#0" expanded="true" />
+            <element signature="e#412#422#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xpug/kata/birthday_greetings/BirthdayService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="21" selection-start="685" selection-end="685" vertical-scroll-proportion="0.591133">
+          <folding />
         </state>
       </provider>
     </entry>
