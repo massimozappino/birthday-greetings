@@ -11,7 +11,8 @@ public class Main {
 	public static void main(String[] args) throws IOException, ParseException, MessagingException {
         EmployeeRepository employeeRepository = new EmployeeRepository("employee_data.txt");
         BirthdayService service = new BirthdayService(employeeRepository);
-        service.sendGreetings(new XDate("2008/10/08"), "localhost", 25);
+        MailServer mailServer = new MailServer("localhost", 25);
+        service.sendGreetings(new XDate("2008/10/08"), mailServer);
 	}
 
 }

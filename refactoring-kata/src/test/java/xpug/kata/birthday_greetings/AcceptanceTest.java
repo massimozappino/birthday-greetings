@@ -50,7 +50,8 @@ public class AcceptanceTest {
 	@SuppressWarnings("unchecked")
 	private void startBirthdayServiceFor(String employeeFileName, String date) throws Exception {
 		BirthdayService service = new BirthdayService(new EmployeeRepository(employeeFileName));
-		service.sendGreetings(new XDate(date), "localhost", NONSTANDARD_PORT);
+        MailServer mailServer = new MailServer("localhost", NONSTANDARD_PORT);
+        service.sendGreetings(new XDate(date), mailServer);
 		emailIterator = server.getReceivedEmail();
 	}
 }

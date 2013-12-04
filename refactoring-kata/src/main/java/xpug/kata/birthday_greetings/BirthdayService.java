@@ -19,9 +19,8 @@ public class BirthdayService {
         this.employeeRepository = employeeRepository;
     }
 
-    public void sendGreetings(XDate xDate, String smtpHost, int smtpPort) throws IOException, ParseException, MessagingException {
+    public void sendGreetings(XDate xDate, MailServer ms) throws IOException, ParseException, MessagingException {
 
-        MailServer ms = new MailServer(smtpHost, smtpPort);
         for (Employee employee : employeeRepository.getEmployees()) {
             if (employee.isBirthday(xDate)) {
                 String recipient = employee.getEmail();
