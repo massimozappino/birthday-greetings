@@ -9,7 +9,7 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
 
-public class MailServer {
+public class MailServer implements IMessageServer{
 
     private String smtpHost;
     private int smtpPort;
@@ -20,7 +20,8 @@ public class MailServer {
     }
 
 
-    public void sendMessage(String sender, String subject, String body, String recipient) throws AddressException, MessagingException {
+    public void sendMessage(String sender, String subject, String body, String recipient) {
+
         // Create a mail session
         java.util.Properties props = new java.util.Properties();
         props.put("mail.smtp.host", smtpHost);
@@ -29,12 +30,16 @@ public class MailServer {
 
         // Construct the message
         Message msg = new MimeMessage(session);
-        msg.setFrom(new InternetAddress(sender));
-        msg.setRecipient(Message.RecipientType.TO, new InternetAddress(recipient));
-        msg.setSubject(subject);
-        msg.setText(body);
+        try {
+            msg.setFrom(new InternetAddress(sender));
+            msg.setRecipient(Message.RecipientType.TO, new InternetAddress(recipient));
+            msg.setSubject(subject);
+            msg.setText(body);
 
-        // Send the message
-        Transport.send(msg);
+            // Send the message
+            Transport.send(msg);
+        } catch (MessagingException e) {
+            throw new RuntimeException();
+        }
     }
 }

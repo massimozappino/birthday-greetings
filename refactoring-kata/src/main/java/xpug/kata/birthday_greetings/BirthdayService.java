@@ -14,19 +14,21 @@ import javax.mail.internet.MimeMessage;
 public class BirthdayService {
 
     private final IEmployeeRepository employeeRepository;
+    private final IMessageServer mailServer;
 
-    public BirthdayService(IEmployeeRepository employeeRepository) {
+    public BirthdayService(IEmployeeRepository employeeRepository, IMessageServer mailServer) {
         this.employeeRepository = employeeRepository;
+        this.mailServer = mailServer;
     }
 
-    public void sendGreetings(XDate xDate, MailServer ms) throws IOException, ParseException, MessagingException {
+    public void sendGreetings(XDate xDate) throws IOException, ParseException, MessagingException {
 
         for (Employee employee : employeeRepository.getEmployees()) {
             if (employee.isBirthday(xDate)) {
                 String recipient = employee.getEmail();
                 String body = "Happy Birthday, dear %NAME%!".replace("%NAME%", employee.getFirstName());
                 String subject = "Happy Birthday!";
-                ms.sendMessage("sender@here.com", subject, body, recipient);
+                mailServer.sendMessage("sender@here.com", subject, body, recipient);
             }
         }
 	}
