@@ -21,13 +21,13 @@ public class BirthdayService {
 
     public void sendGreetings(XDate xDate, String smtpHost, int smtpPort) throws IOException, ParseException, MessagingException {
 
-        MailServer ms = new MailServer();
+        MailServer ms = new MailServer(smtpHost, smtpPort);
         for (Employee employee : employeeRepository.getEmployees()) {
             if (employee.isBirthday(xDate)) {
                 String recipient = employee.getEmail();
                 String body = "Happy Birthday, dear %NAME%!".replace("%NAME%", employee.getFirstName());
                 String subject = "Happy Birthday!";
-                ms.sendMessage(smtpHost, smtpPort, "sender@here.com", subject, body, recipient);
+                ms.sendMessage("sender@here.com", subject, body, recipient);
             }
         }
 	}
