@@ -6,7 +6,13 @@ import java.util.LinkedList;
 
 
 public class EmployeeRepository {
-    public LinkedList<Employee> getEmployees(String fileName) throws IOException, ParseException {
+    private String fileName;
+
+    public EmployeeRepository(String fileName) {
+        this.fileName = fileName;
+    }
+
+    public LinkedList<Employee> getEmployees() throws IOException, ParseException {
         BufferedReader in = new BufferedReader(new FileReader(fileName));
         String str = "";
         str = in.readLine(); // skip header
