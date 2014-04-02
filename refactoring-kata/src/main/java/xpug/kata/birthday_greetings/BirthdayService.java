@@ -18,7 +18,6 @@ public class BirthdayService {
 
 	public void sendGreetings(String fileName, XDate xDate, String smtpHost, int smtpPort) throws IOException, ParseException, AddressException, MessagingException {
 
-;
         for (Employee employee : new EmployeeRepository().getEmployees(fileName)) {
             if (employee.isBirthday(xDate)) {
                 String recipient = employee.getEmail();
@@ -27,9 +26,6 @@ public class BirthdayService {
                 sendMessage(smtpHost, smtpPort, "sender@here.com", subject, body, recipient);
             }
         }
-
-
-
 	}
 
 	private void sendMessage(String smtpHost, int smtpPort, String sender, String subject, String body, String recipient) throws AddressException, MessagingException {
