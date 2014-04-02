@@ -21,7 +21,7 @@ public class BirthdayService {
         for (Employee employee : new EmployeeRepository().getEmployees(fileName)) {
             if (employee.isBirthday(xDate)) {
                 String recipient = employee.getEmail();
-                String body = "Happy Birthday, dear %NAME%".replace("%NAME%", employee.getFirstName());
+                String body = "Happy Birthday, dear %NAME%!".replace("%NAME%", employee.getFirstName());
                 String subject = "Happy Birthday!";
                 sendMessage(smtpHost, smtpPort, "sender@here.com", subject, body, recipient);
             }
